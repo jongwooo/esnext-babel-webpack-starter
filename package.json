@@ -4,7 +4,7 @@
   "description": "Starter pack for ESNext applications using Babel and Webpack.",
   "private": true,
   "scripts": {
-    "build": "babel src/js -w -d dist/js"
+    "build": "webpack -w"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.6",
