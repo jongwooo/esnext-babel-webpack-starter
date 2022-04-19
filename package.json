@@ -4,7 +4,7 @@
   "description": "Starter pack for ESNext applications using Babel and Webpack.",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src/js -w -d dist/js"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.6",
